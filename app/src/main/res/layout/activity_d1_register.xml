@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Design.D1_Register">
+
+    <LinearLayout
+        android:layout_weight="100"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@drawable/f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ImageView>
+    </LinearLayout> <!--    1-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    2-->
+
+    <LinearLayout
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout> <!--    3-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    4-->
+
+    <LinearLayout
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout> <!--    5-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Mobile Number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    6-->
+
+    <LinearLayout
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout> <!--    7-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    8-->
+
+    <LinearLayout
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout> <!--    9-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Shipping Address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    10-->
+
+    <LinearLayout
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </LinearLayout> <!--    11-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:textSize="30dp"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Button>
+    </LinearLayout> <!--    12-->
+
+    <LinearLayout
+        android:layout_weight="75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="25dp"
+            android:text="Already Register? Login Here"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout> <!--    13-->
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Control1.E7_checkbox">
+
+    <TextView
+        android:text="Select Course "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <CheckBox
+        android:id="@+id/E7_chk_PHP"
+        android:text="PHP "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/E7_chk_ASP"
+        android:text="ASP "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/E7_chk_JAVA"
+        android:text="Java "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/E7_chk_Android"
+        android:text="Android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/E7_chk_SEO"
+        android:text="SEO "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <TextView
+        android:id="@+id/E7_lbl_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:onClick="E7_fun_Show"
+        android:text="Show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>

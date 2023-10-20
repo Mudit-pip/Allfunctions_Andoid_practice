@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/E36_mnu_File"
+        android:title="File" />
+
+    <item
+        android:id="@+id/E36_mnu_Save"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/E36_mnu_Open"
+        android:title="Open" />
+
+    <item
+        android:id="@+id/E36_mnu_Print"
+        android:title="Print" />
+
+    <item
+        android:id="@+id/E36_mnu_Exit"
+        android:title="Exit" />
+
+</menu>

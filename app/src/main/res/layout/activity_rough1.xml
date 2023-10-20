@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Control1.Rough.Rough1">
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:textSize="30dp"
+            android:id="@+id/rough_rad_A"
+            android:text="A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textSize="30dp"
+            android:id="@+id/rough_rad_B"
+            android:text="B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textSize="30dp"
+            android:id="@+id/rough_rad_C"
+            android:text="C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textSize="30dp"
+            android:id="@+id/rough_rad_D"
+            android:text="D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:textSize="30dp"
+            android:id="@+id/rough_rad_E"
+            android:text="E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="rough_submit"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/rough_lbl"
+        android:text="Click Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

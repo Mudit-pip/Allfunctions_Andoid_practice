@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TpApps.tp3_OpeningOtherApps">
+
+    <EditText
+        android:gravity="left"
+        android:text="www."
+        android:id="@+id/tp3_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <ListView
+        android:layout_weight="90"
+        android:id="@+id/tp3_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+    <Button
+        android:onClick="tp3_btn"
+        android:layout_weight="10"
+        android:text="Add Website"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></Button>
+    
+</LinearLayout>

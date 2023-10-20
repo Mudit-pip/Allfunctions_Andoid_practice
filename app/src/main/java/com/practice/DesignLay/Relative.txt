@@ -1,0 +1,19 @@
+Attribute	Description
+layout_alignParentTop :	If it specified “true”, the top edge of view will match the top edge of the parent.
+layout_alignParentBottom :	If it specified “true”, the bottom edge of view will match the bottom edge of parent.
+
+layout_alignParentLeft :	If it specified “true”, the left edge of view will match the left edge of parent.
+layout_alignParentRight :	If it specified “true”, the right edge of view will match the right edge of the parent.
+
+layout_centerInParent :	If it specified “true”, the view will be aligned to the centre of parent.
+
+layout_centerHorizontal :	If it specified “true”, the view will be horizontally centre aligned within its parent.
+layout_centerVertical :	If it specified “true”, the view will be vertically centre aligned within its parent.
+
+layout_above :	It accepts another sibling view id and places the view above the specified view id.
+layout_below :	It accepts another sibling view id and places the view below the specified view id.
+
+layout_toLeftOf :	It accepts another sibling view id and places the view left of the specified view id.
+layout_toRightOf :	It accepts another sibling view id and places the view right of the specified view id.
+layout_toStartOf :	It accepts another sibling view id and places the view to start of the specified view id.
+layout_toEndOf :	It accepts another sibling view id and places the view to the end of the specified view id.

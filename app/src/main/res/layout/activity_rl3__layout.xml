@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DesignLay.RL3_Layout">
+
+
+    <Button
+        android:text="Button First"
+        android:id="@+id/RL2_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_below="@id/RL2_btn1"
+        android:layout_toRightOf="@id/RL2_btn1"
+        android:id="@+id/RL2_btn2"
+        android:text="Button Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_below="@id/RL2_btn2"
+        android:layout_toRightOf="@id/RL2_btn2"
+        android:id="@+id/RL2_btn3"
+        android:text="Button Third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    
+</RelativeLayout>

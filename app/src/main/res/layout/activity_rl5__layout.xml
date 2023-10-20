@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DesignLay.RL5_Layout">
+
+
+    <TextView
+        android:id="@+id/RL5_txt_Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/md_light_green_500"
+        android:gravity="center"
+        android:text="SIGN IN" />
+
+    <TextView
+        android:id="@+id/RL5_lbl_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="UserName:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!--Text View for Displaying Password-->
+
+    <TextView
+        android:id="@+id/RL5_lbl_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RL5_lbl_UserName"
+        android:text="Password:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!--Edit Text for Filling Username-->
+
+    <EditText
+        android:id="@+id/RL5_txt_UserName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/RL5_lbl_UserName"
+        android:hint="User Name" />
+
+    <!--Edit Text for Filling Password-->
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/RL5_txt_UserName"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/RL5_lbl_Password"
+        android:hint="Password" />
+
+    <!--Button for Clicking after filling details-->
+
+    <Button
+        android:id="@+id/RL5_btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RL5_lbl_Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#03B424"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+android:layout_column: it means "the index of the column in which this child should be".
+The only tricky part is that columns start at 0.
+
+Spanning Columns: We can make a column span or take up the space of one or more columns
+by using the android:layout_span attribute. The value assigned to this attribute must
+be >=1. For example, the following value makes the control take or span up to
+two columns:
+
+
+Stretching Columns
+The default width of a column is set equal to the width of the widest column,
+but we can stretch the column(s) to take up available free space using the
+android:stretchColumns attribute in the TableLayout. The value assigned to this
+attribute can be a single column number or a comma-delimited list of column numbers.
+The specified columns are stretched to take up any available space on the row.
+Examples:
+    android:stretchColumns="1"—The second column (because the column numbers are 0-based)
+     is stretched to take up any available space in the row.
+    android:stretchColumns="0,1"—Both the first and second columns are stretched to
+    take up the available space in the row.
+    android:stretchColumns="*" says that all columns should be stretched
+
+
+Collapsing Columns
+We can make the column(s) collapse or become invisible through the
+android:collapseColumns attribute in the TableLayout. We can specify one or more
+comma-delimited columns for this attribute. These columns are part of the table
+information but are invisible. We can also make column(s) visible and invisible
+through coding by passing the Boolean values false and true, respectively, to
+the setColumnCollapsed() method in the TableLayout. For example:
+
+    android:collapseColumns="0"—The first column appears collapsed; that is,
+    it is part of the table but is invisible. It can be made visible through
+    coding by using the setColumnCollapsed() method.

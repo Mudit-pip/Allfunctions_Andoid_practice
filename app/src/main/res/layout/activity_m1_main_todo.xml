@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ToDO.m1_main_todo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/M1_txt_Search"
+            android:layout_weight="1"
+            android:text="Enter New Item"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></androidx.appcompat.widget.SearchView>
+        <Button
+            android:onClick="M1_btn_Add"
+            android:textSize="20dp"
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Button>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/M1_lst_Task"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

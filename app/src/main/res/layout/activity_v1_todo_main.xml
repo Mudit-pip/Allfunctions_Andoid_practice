@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ToDo2.v1_todo_main">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/v1_todo_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:defaultQueryHint="Search"
+        app:iconifiedByDefault="false"></androidx.appcompat.widget.SearchView>
+
+
+    <ListView
+        android:id="@+id/v1_todo_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"></ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:onClick="v1_addToList_btn"
+        android:text="+ Add Item"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="v1_todo_back"
+        android:text="Back"></Button>
+
+</LinearLayout>

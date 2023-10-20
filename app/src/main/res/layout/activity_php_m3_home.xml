@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PHPApi.PhpM3_Home">
+
+    <Button
+        android:onClick="PhpM3_fun_EditProfile"
+        android:text="Edit Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_ChangePassword"
+        android:text="ChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_Logout"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_Products"
+        android:text="Products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_SearchQuick"
+        android:text="SearchQuick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_SearchAdvance"
+        android:text="SearchAdvance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_AddToCart"
+        android:text="AddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_ViewCart"
+        android:text="View Cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_ContactUs"
+        android:text="Contact Us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:onClick="PhpM3_fun_Album"
+        android:text="Album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

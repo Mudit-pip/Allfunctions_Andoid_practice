@@ -1,0 +1,8 @@
+layout_constraintLeft_toLeftOf : the left border of the element is positioned relative to the left border of another element
+
+layout_constraintLeft_toRightOf : the left border of the element is positioned relative to the right border of another element
+
+layout_constraintRight_toLeftOf: the right border of the element is positioned relative to the left border of another element
+
+layout_constraintRight_toRightOf: the right border of the element is positioned relative to the right border of another element.
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/md_blue_50"
+    tools:context=".DesignLay.RL2_Layout">
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Button First"
+        android:id="@+id/RL2_btn_First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/RL2_btn_Second"
+        android:text="Button Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/RL2_btn_Third"
+        android:text="Button Third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+
+    <Button
+        android:layout_alignParentStart="true"
+        android:id="@+id/RL2_btn_Fourth"
+        android:text="Button Fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/RL2_btn_Fifth"
+        android:text="Button Fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+
+</RelativeLayout>

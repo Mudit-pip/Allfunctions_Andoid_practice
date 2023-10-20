@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Practice"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Advance.H2_NavigationDrawer"
+            android:exported="false" />
+        <activity
+            android:name=".Advance.H1_TabLayout"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM14_SearchAdvance"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM13_Gallery"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM12_Album"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM11_ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM10_AddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM9_SearchAdvance"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM8_SearchQuick"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM7_Products"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM6_Logout"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM5_ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM4_EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM3_Home"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM2_Login"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.PhpM1_Register"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.Php2a_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.Rewrite_Php2"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.Php2_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.Rewrite_Php1"
+            android:exported="false" />
+        <activity
+            android:name=".PHPApi.Php1_InsertData"
+            android:exported="false" />
+        <activity
+            android:name=".ToDO.m2_main_todoedit"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.Automatic_sms_sender"
+            android:exported="false" />
+        <activity
+            android:name=".ToDo2.Rough"
+            android:exported="false" />
+        <activity
+            android:name=".ToDo2.v2_Home_todo"
+            android:exported="false" />
+        <activity
+            android:name=".ToDo2.v1_todo_main"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G0_Home"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G1_BatteryLevel"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G2_BlueTooth"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G3_Wifi"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G4_BluetoothPairedDevice"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G5_MotionDetection"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G6_GetCallState1"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G7_PhoneCall"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G8_TelephonyManager"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G9_SendSMS"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G10_ReadSMS"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G11_ContactDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G11_ReadContacts"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G12_CallLogRead"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G13_CallLogWrite"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G14_SendMail"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G15_TextToSpeech"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G16_Camera"
+            android:exported="false" />
+        <activity
+            android:name=".Hardware.G18_SMS"
+            android:exported="false" />
+        <activity
+            android:name=".ToDO.m1_main_todo"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.Rough_for_listView"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.tp3_OpeningOtherApps"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq18_ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq16_ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq15_EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq14_Home"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq13_Login"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq12_Register"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq11_AdvanceSearch"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq10_Search"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq9_ReadMultiple"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq8_MultipleInsert"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq7_GridView"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq6_AutoCompleteMultiple"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq5_AutoCompleteText"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq4_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq3_Spinner"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq2_ReadSingle"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.sq1_InsertSingle"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E41_ExternalStorageFileCreate"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E40_InternalStorageFileCreate"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E39_SharedPrefrences"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E38_contextMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E36_PopupMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E35_OptionMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E34_GalleryControl"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E33_GridViewGallery"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.todolist"
+            android:exported="false" />
+        <activity
+            android:name=".Control2.E32_ListViewMulti"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E29_AutoText"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E25_spinner"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E24_spinner"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E31_GridView"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E30_MultiAutoText"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E28_ListViewDialoge"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E27_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E26_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E23_AlertDialoge"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E22_ZoomControl"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E21_ZoomButton"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E20_SearchView"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E19_ProgressDialog"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E18_SeekBar"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E17_RatingBAr"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E16_NumberPicker"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E15_TimePicker"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E14_DatePickedDialoge"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E13_DatePicker"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E12_Toggle"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E11_Switch"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E10_AnalogClock"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E9_DigitalClock"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E8_ImageView"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E7_checkbox"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E6_RadioButton"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E5_calc"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E4_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E1_VerticalScroll"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E3_Hello"
+            android:exported="false" />
+        <activity
+            android:name=".Control1.E2_HorizontalScroll"
+            android:exported="false" />
+        <activity
+            android:name=".TpApps.Rough_Calc"
+            android:exported="false" />
+        <activity
+            android:name=".Design.D1_RegisterTRy"
+            android:exported="false" />
+        <activity
+            android:name=".Design.D1_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Design.C2_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Design.C1_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Design.B2_Home"
+            android:exported="false" />
+        <activity
+            android:name=".Design.B1_Home"
+            android:exported="false" />
+
+        <activity android:name=".DesignLay.CL4_Layout" />
+        <activity android:name=".DesignLay.TL1_Layout" />
+        <activity android:name=".DesignLay.TL2_Layout" />
+        <activity android:name=".DesignLay.TL3_Layout" />
+        <activity android:name=".DesignLay.TL4_Layout" />
+        <activity android:name=".DesignLay.TL5_Layout" />
+        <activity android:name=".DesignLay.RL5_Layout" />
+        <activity android:name=".DesignLay.RL4_Layout" />
+        <activity android:name=".DesignLay.RL3_Layout" />
+        <activity android:name=".DesignLay.RL2_Layout" />
+        <activity android:name=".DesignLay.RL1_Layout" />
+        <activity android:name=".DesignLay.FL3_Layout" />
+        <activity android:name=".DesignLay.FL2_Layout" />
+        <activity android:name=".DesignLay.FL1_Layout" />
+        <activity android:name=".DesignLay.LL_D3_Register" />
+        <activity android:name=".DesignLay.LL_D2_Register" />
+        <activity android:name=".DesignLay.LL_D1_Register" />
+        <activity android:name=".DesignLay.LL_C4_Login" />
+        <activity android:name=".DesignLay.LL_C3_Login" />
+        <activity android:name=".DesignLay.LL_C2_Login" />
+        <activity android:name=".DesignLay.LL_C1_Login" />
+        <activity android:name=".DesignLay.LL_B4_Home" />
+        <activity android:name=".DesignLay.LL_B3_Home" />
+        <activity android:name=".DesignLay.LL_B2_Home" />
+        <activity android:name=".DesignLay.LL_B1_Home" />
+        <activity android:name=".DesignLay.A6_Layout" />
+        <activity android:name=".DesignLay.A5_Layout" />
+        <activity android:name=".DesignLay.A4_Layout" />
+        <activity android:name=".DesignLay.A3_Layout" />
+        <activity android:name=".DesignLay.A2_Layout" />
+        <activity android:name=".DesignLay.A1_Layout" />
+        <activity android:name=".DesignLay.CL3_Layout" />
+        <activity android:name=".DesignLay.CL2_Layout" />
+        <activity android:name=".DesignLay.CL1_Layout" />
+        <activity android:name=".DesignLay.CL0_Home" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

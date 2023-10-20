@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PHPApi.PhpM2_Login">
+
+    <EditText
+        android:id="@+id/phpM2_mobile"
+        android:hint="Enter Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:id="@+id/phpM2_password"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:text="SUBMIT"
+        android:onClick="PhpM2_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:layout_gravity="right"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:text="ADD ANOTHER ACCOUNT"
+        android:onClick="PhpM2_registernew_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

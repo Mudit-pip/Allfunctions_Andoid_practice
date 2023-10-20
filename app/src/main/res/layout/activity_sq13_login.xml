@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SQLite.sq13_Login">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/sq13_txt_mobile"
+        android:hint="Enter Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:id="@+id/sq13_txt_pass"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:onClick="sq13_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="sq13_btnForNewRegister"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:text="Add another account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

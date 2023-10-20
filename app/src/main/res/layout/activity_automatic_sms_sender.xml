@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".TpApps.Automatic_sms_sender">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:id="@+id/tp_sms_mobile"
+        android:textSize="30dp"
+        android:hint="Enter Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:id="@+id/tp_sms_amount"
+        android:textSize="30dp"
+        android:hint="Enter Number Of sms to send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tp_sms_message"
+        android:textSize="30dp"
+        android:hint="Enter Message to send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:onClick="tp_automaticsms_btn"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:text="Send SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Control1.E5_calc">
+
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/E5_txt_num1"
+        android:hint="enter number 1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/E5_txt_num2"
+        android:hint="enter number 2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <TextView
+        android:id="@+id/E5_lbl_sum"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="E5_add_button1"
+            android:text="Add"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:onClick="E5_sub_button2"
+            android:text="Subtract"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:onClick="E5_mul_button3"
+            android:text="multiply"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:onClick="E5_div_button4"
+            android:text="Divide"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

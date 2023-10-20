@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Control1.E6_RadioButton">
+
+    <EditText
+        android:inputType="number"
+        android:textSize="30dp"
+        android:id="@+id/E6_txt_num1"
+        android:hint="enter number 1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <EditText
+        android:inputType="number"
+        android:textSize="30dp"
+        android:id="@+id/E6_txt_num2"
+        android:hint="enter number 2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <TextView
+        android:id="@+id/E6_lbl_ans"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></TextView>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/E6_rdo_Add"
+            android:text="Add"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/E6_rdo_sub"
+            android:text="Subtract"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/E6_rdo_mul"
+            android:text="multiply"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/E6_rdo_div"
+            android:text="Divide"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:onClick="E6_btn_Calc"
+        android:text="Calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

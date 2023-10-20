@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Design.D1_RegisterTRy">
+
+    <ImageView
+        android:layout_weight="80"
+        android:src="@drawable/f"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ImageView>
+
+    <TextView
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+
+    <TextView
+        android:layout_weight="40"
+        android:textColor="@color/white"
+           android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:textSize="35dp"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></TextView>
+
+    <TextView
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="40"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+        android:textSize="35dp"
+        android:text="Email Address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+
+    <TextView
+        android:layout_weight="40"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+        android:textSize="35dp"
+        android:text="Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_weight="40"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+        android:textSize="35dp"
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+
+    <TextView
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+    <TextView
+        android:layout_weight="40"
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:gravity="center_vertical"
+        android:textSize="35dp"
+        android:text="Shipping Address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+    <TextView
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+    <Button
+        android:layout_weight="40"
+        android:backgroundTint="@color/green"
+        android:textSize="30dp"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></Button>
+
+    <TextView
+        android:layout_weight="30"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="25dp"
+        android:text="Already Register? Login Here"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></TextView>
+
+</LinearLayout>

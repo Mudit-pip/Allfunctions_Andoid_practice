@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/border"
+        android:id="@+id/layout_v2_lay"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/layout_v2_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/notetaking"></ImageView>
+
+        <TextView
+            android:id="@+id/layout_v2_text"
+            android:gravity="center"
+            android:text="Example"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/layout_v2_editimg"
+                android:src="@drawable/editimage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></ImageView>
+            <ImageView
+                android:id="@+id/layout_v2_deleteimg"
+                android:src="@drawable/deleteimage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></ImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

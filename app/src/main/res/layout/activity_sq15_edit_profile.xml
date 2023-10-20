@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SQLite.sq15_EditProfile">
+
+    <EditText
+        android:id="@+id/sq15_txt_editName"
+        android:hint="Change Name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <EditText
+        android:id="@+id/sq15_txt_editEmail"
+        android:hint="Change Email id"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:onClick="sq15_submit"
+        android:text="Change Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DesignLay.RL4_Layout">
+
+    <Button
+        android:id="@+id/RL2_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button First"></Button>
+
+    <Button
+        android:id="@+id/RL2_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RL2_btn1"
+        android:layout_toRightOf="@id/RL2_btn1"
+        android:text="Button Second"></Button>
+
+    <Button
+        android:id="@+id/RL2_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/RL2_btn2"
+        android:layout_toRightOf="@id/RL2_btn2"
+        android:text="Button Third"></Button>
+
+    <Button
+        android:id="@+id/RL2_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RL2_btn2"
+        android:layout_centerHorizontal="true"
+        android:text="Button Fourth"></Button>
+
+
+    <Button
+        android:id="@+id/RL2_btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RL2_btn4"
+        android:layout_toLeftOf="@id/RL2_btn4"
+        android:text="Button Third"></Button>
+
+    <Button
+        android:id="@+id/RL2_btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RL2_btn4"
+        android:layout_toRightOf="@id/RL2_btn4"
+        android:text="Button Third"></Button>
+
+</RelativeLayout>

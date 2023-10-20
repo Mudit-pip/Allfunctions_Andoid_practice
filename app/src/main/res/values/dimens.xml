@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mymarginLeft">10dp</dimen>
+    <dimen name="mytextsize">40sp</dimen>
+    <dimen name="mymarginTop">10dp</dimen>
+
+</resources>
